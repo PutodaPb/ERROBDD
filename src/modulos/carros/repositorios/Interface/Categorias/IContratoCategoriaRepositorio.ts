@@ -8,9 +8,9 @@ interface ICriacaoDeCategoriasDTO {
 // Interface de Requisição de tipos par as infos pedidas.
 
 class IContratoCategoriaRepositorio{
-    findByName(name:string) : CategoriaModel;
-    list():CategoriaModel[];
-    create({name, descricao}: ICriacaoDeCategoriasDTO): void;
+    findByName(name:string) : Promise<CategoriaModel>;
+    list(): Promise<CategoriaModel[]>;
+    create({name, descricao}: ICriacaoDeCategoriasDTO): Promise<void>;
 }
 /** 
  * - Class com as funções de Verificação de nome ("FindByName")
