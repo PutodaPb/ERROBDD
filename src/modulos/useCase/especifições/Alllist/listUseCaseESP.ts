@@ -1,4 +1,4 @@
-import { EspecificacaoModel } from "../../../carros/modelos/Especificacao";
+import { EspecificacaoModel } from "../../../carros/entites/Especificacao";
 import { IEspecificacaodeRepositorio } from "../../../carros/repositorios/Interface/Repositorios/IEspecificacaoRepositorio";
 
 

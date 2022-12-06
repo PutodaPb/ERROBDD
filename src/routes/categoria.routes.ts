@@ -4,7 +4,7 @@ import multer from "multer";
 
 // Importanto a Biblioteca do express.
 
-import { listController } from "../modulos/useCase/createCategoria/AllList/listController";
+import {listController }from "../modulos/useCase/createCategoria/AllList/listController";
 
 import createCategoryController from "../modulos/useCase/createCategoria";
 import { importCategoriaController } from "../modulos/useCase/import/importCategoria";

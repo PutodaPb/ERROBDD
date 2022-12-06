@@ -1,4 +1,4 @@
-import { CategoriaModel } from "../../../carros/modelos/Categorias";
+import { CategoriaModel } from "../../../carros/entites/Categorias";
 import { IContratoCategoriaRepositorio } from "../../../carros/repositorios/Interface/Categorias/IContratoCategoriaRepositorio";
 
 

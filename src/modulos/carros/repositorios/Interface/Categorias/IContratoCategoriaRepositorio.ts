@@ -1,4 +1,4 @@
-import { CategoriaModel } from "../../../modelos/Categorias";
+import { CategoriaModel } from "../../../entites/Categorias";
 
 
 interface ICriacaoDeCategoriasDTO {

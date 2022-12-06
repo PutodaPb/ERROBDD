@@ -1,4 +1,4 @@
-import { EspecificacaoModel } from "../../../modelos/Especificacao";
+import { EspecificacaoModel } from "../../../entites/Especificacao";
 
 
 
